@@ -37,7 +37,9 @@
     display: inline-block;
     margin: 15px 0;
 }
-
+.show {
+     display: flex;
+}
 .game-over {
     position: fixed;
     left: 0;
@@ -73,7 +75,9 @@ p {
 }
 
 @media only screen and (min-width: 380px) and (max-width: 480px) and (orientation: portrait){
-
+.show {
+     display: flex;
+}
 .quiz-container {
     width: 80%;
     height: 100%;
@@ -158,6 +162,9 @@ p {
     width: 300px;
     margin-bottom: 10px;
 }
+.show {
+     display: flex;
+}
 .button .btn{
     font-size: 18px;
     display: inline-block;
@@ -240,6 +247,9 @@ p {
     font-size: 12px;
     display: inline-block;
     margin: 10px 0;
+}
+.show {
+     display: flex;
 }
 
 .game-over .end-container {
