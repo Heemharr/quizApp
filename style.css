@@ -246,10 +246,12 @@ p {
     flex-basis: 90%;
     text-align: center;
     color: white;
+    
 }
 .game-over .end-container h1 {
     font-size: 12px;
     font-weight: normal;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .game-over .end-container .butn {
     padding: 5px 20px;
@@ -298,6 +300,7 @@ p {
 }
 .game-over .end-container h1 {
     font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .game-over .end-container .butn {
     padding: 6px 25px;
